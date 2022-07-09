@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*h1 {
+            background: red;
+        }*/
+
+        p {
+            background: blue;
+        }
+
+        #cabecalho-dois {
+            background: purple;
+        }
+
+        #p1 {background: green;}
+
+        .fundo-vermelho {
+            background: rgb(21, 0, 255) !important; 
+        } /*esse !important não é recomendado*/
+
+    </style>
+</head>
+<body>
+    <h1 id="cabecalho-um" class="fundo-vermelho borda-esquerda">
+        vai vir aqui
+    </h1> 
+    <h1 id="cabecalho-dois" class="fundo-vermelho">
+        vai vir aqui 
+    </h1> 
+    <p id="p1">
+        nao vai ser <b>afetado</b>.
+    </p>
+</body>
+</html>
