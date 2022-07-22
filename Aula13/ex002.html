@@ -15,7 +15,6 @@
         label {
             color: aliceblue;
             cursor: pointer;
-            display: block;
             font-family: 'Times New Roman', Times, serif;
         }
 
@@ -34,22 +33,31 @@
     <form action="#" method="get" target="_blank" autocomplete="off">
         <p>O meu formulário</p>
         <p>
-            <label for="name-user">
+            <label for="name-user" style="display: block;">
                 Nome:
             </label>
             <input type="text" id="name-user" name="name-user" placeholder="Seu nome">
         </p>
 
+
         <p>
-            <button type="reset">Reset</button>
-            <button type="submit">Enviar</button>
+            <label for="dev1">Sou um dev1</label>
+            <input type="checkbox" checked id="dev" name="dev" value="sim"><br>
+            <label for="dev2">Sou um dev2</label>
+            <input type="checkbox" checked id="dev" name="dev" value="sim"><br>
+            <label for="dev3">Sou um dev3</label>
+            <input type="checkbox" checked id="dev" name="dev" value="sim">
         </p>
+
         
         <p>
-            <label for="name-user">
-                Nome:
-            </label>
-            <input type="text" id="name-user" name="name-user" placeholder="Seu nome">
+            Gênero:<br>
+            <label for="masc">masc</label>
+            <input type="radio" checked id="masc" name="genero" value="masc"><br>
+            <label for="Fem">Fem</label>
+            <input type="radio" checked id="Fem" name="genero" value="Fem"><br>
+            <label for="Nbinário">Nbinário</label>
+            <input type="radio" checked id="Nbinário" name="genero" value="Nbinário">
         </p>
 
         <p>
